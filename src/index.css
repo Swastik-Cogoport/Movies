@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    /* display: flex; */
+}
+
+.layoutInput {
+    height: 5vh;
+    /* border: 2px solid white; */
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: white; */
+}
+
+.layoutInputSearch {
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid aqua; */
+}
+
+.layoutInputSearch input{
+    border: 2px solid white;
+    display: block;
+    background-color: white;
+    /* font-size: 20px; */
+    width: 70%;
+    height: 60%;
+    padding: 0px 4px;
+    border-radius: 4px;
+}
+
+.layoutInputSearch select {
+    height: 70%;
+    background-color: white;
+    color: black;
+    padding: 0px 8px;
+    margin: 4px;
+    border: 2px solid white;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.layoutInputSearch button {
+    height: 70%;
+    background-color: white;
+    color: black;
+    padding: 4px 8px;
+    margin: 4px;
+    border: 2px solid white;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.moviesContainer {
+    /* border: 2px solid red; */
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.movieCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: white;
+    /* box-shadow: 2px 2px rgb(230,230,230); */
+}
+
+.movieCard-Img {
+    /* border: 2px solid purple; */
+    width: 100%;
+    height: 100%;
+    transition-property: all;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.movieCard-Img:hover {
+    width: 102%;
+    height: 100%;
+}
+
+.movieCard-Content {
+    position: relative;
+    /* top: -20px; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 4px 10px;
+    /* border: 2px solid blue; */
+}
+
+.movieCard-Content button {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border: 2px solid white;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+}
+
